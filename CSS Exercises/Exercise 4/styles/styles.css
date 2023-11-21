@@ -1,0 +1,49 @@
+/* Default styles for all devices */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media query for mobile devices (max-width 600px) */
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    article {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
