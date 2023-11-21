@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+}
+
+.box {
+    width: 33%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box:last-child {
+    clear: both;
+}
