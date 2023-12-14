@@ -1,0 +1,50 @@
+.parent {
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background: #ff5733;
+    /* Vibrant orange */
+    border: 10px solid #fffc00;
+    /* Bright yellow */
+}
+
+.child1 {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: 1px solid #ddd;
+    font-weight: bold;
+    background: #ff9999;
+    /* Light pink */
+    border: 3px solid #ff00ff;
+    /* Magenta */
+}
+
+.child2 {
+    background: linear-gradient(to bottom, #f8f8f8, #fff);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px dotted #ccc;
+    outline: 1px solid #ddd;
+    font-style: italic;
+}
+
+.child1:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.child2:hover {
+    transform: rotate(5deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

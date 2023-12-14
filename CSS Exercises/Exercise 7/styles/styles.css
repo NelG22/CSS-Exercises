@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: 100vh;
+  }
+  
+  header {
+    grid-column: 1 / span 2;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav.sidebar {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  main.main {
+    padding: 20px;
+  }
+  
+  footer {
+    grid-column: 1 / span 2;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
